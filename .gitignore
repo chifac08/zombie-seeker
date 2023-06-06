@@ -1,2 +1,9 @@
 .vagrant
 *.o
+*.mod.*
+*.mod
+*.symvers
+*.order
+tests/zombie_process
+*.ko
+*.cmd
