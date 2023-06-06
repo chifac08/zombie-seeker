@@ -13,7 +13,7 @@
  * EXIT_STATE -> 2 bytes (can be only 32) 
  */
 #define MSG_MAX_LENGTH 28
-#define BUFFER_SIZE 35
+#define BUFFER_SIZE 512
 
 MODULE_LICENSE("GPL-2.0");
 MODULE_AUTHOR("Fabian Lichtenegger-Lukas <github.com/chifac08>");
