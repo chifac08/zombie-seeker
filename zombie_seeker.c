@@ -67,7 +67,7 @@ static const struct proc_ops proc_ops =
 static int simple_init(void)
 {
     printk(KERN_DEBUG "%s: started module\n", MODULE_NAME);
-    ent = proc_create("zombie-seeker", 0600, NULL, &proc_ops);
+    ent = proc_create("zombie_seeker", 0600, NULL, &proc_ops);
     return 0;
 }
 

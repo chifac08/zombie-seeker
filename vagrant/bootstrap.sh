@@ -11,7 +11,7 @@ make test
 make module
 
 set +e
-rmmod zombie-seeker
+rmmod zombie_seeker
 set -e
 
 insmod zombie_seeker.ko
